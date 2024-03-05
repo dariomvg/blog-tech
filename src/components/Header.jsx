@@ -5,17 +5,12 @@ import Link from "next/link";
 import "../styles/header.css";
 import Image from "next/image";
 
-const handleTest = () => {
+export const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const handleMenu = () => {
     setIsOpen(!isOpen);
   };
-  return { isOpen, handleMenu };
-};
-
-export const Header = () => {
-  const { isOpen, handleMenu } = handleTest();
 
   return (
     <header className={`header ${isOpen ? "open" : ""}`}>
