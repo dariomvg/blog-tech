@@ -1,0 +1,37 @@
+.container-courses {
+  width: 100%;
+  height: auto;
+  padding-top: 70px;
+  color: #fff;
+}
+.section-filters {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  padding: 14px;
+}
+.select {
+  padding: 10px;
+  outline: none;
+  color: #5e5e5e;
+  border: none;
+}
+
+.title-courses {
+  text-align: center;
+  font-size: 30px;
+}
+.all-courses {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  padding: 10px;
+}
+
+

@@ -1,0 +1,80 @@
+export const paquetes = [
+  {
+    id: 1,
+    title: "React Toastify",
+    link: "https://www.npmjs.com/package/react-toastify",
+    text: "Biblioteca de notificaciones toast para React.",
+  },
+  {
+    id: 2,
+    title: "bcrypt.js",
+    link: "https://www.npmjs.com/package/bcrypt",
+    text: "Implementación de bcrypt para Node.js, utilizado para el hashing de contraseñas.",
+  },
+  {
+    id: 3,
+    title: "Express Validator",
+    link: "https://www.npmjs.com/package/express-validator",
+    text: "Middleware de validación para Express.js.",
+  },
+  {
+    id: 4,
+    title: "Mongoose",
+    link: "https://www.npmjs.com/package/mongoose",
+    text: "Herramienta de modelado de objetos MongoDB para Node.js.",
+  },
+  {
+    id: 5,
+    title: "React Router",
+    link: "https://www.npmjs.com/package/react-router",
+    text: "Enrutador declarativo para React.js para manejar la navegación en la aplicación.",
+  },
+  {
+    id: 6,
+    title: "jsonwebtoken",
+    link: "https://www.npmjs.com/package/jsonwebtoken",
+    text: "Implementación de JSON Web Tokens (JWT) para Node.js.",
+  },
+  {
+    id: 7,
+    title: "dot env",
+    link: "https://www.npmjs.com/package/dotenv",
+    text: "Dotenv carga variables de entorno para un mejor manejo desde un archivo '.env' a process.env.",
+  },
+  {
+    id: 8,
+    title: "Three.js",
+    link: "https://threejs.org/",
+    text: " Biblioteca 3D que facilita la creación de gráficos 3D interactivos en el navegador.",
+  },
+  {
+    id: 9,
+    title: "React Helmet",
+    link: "https://www.npmjs.com/package/react-helmet",
+    text: "Manejo de la etiqueta head en aplicaciones React.",
+  },
+  {
+    id: 10,
+    title: "Express Session",
+    link: "https://www.npmjs.com/package/express-session",
+    text: "Middleware de manejo de sesiones para Express.js.",
+  },
+  {
+    id: 11,
+    title: "Moment.js",
+    link: "https://www.npmjs.com/package/moment",
+    text: "Biblioteca para manipular, analizar y mostrar fechas en JavaScript.",
+  },
+  {
+    id: 12,
+    title: "Material-UI",
+    link: "https://mui.com/material-ui/",
+    text: "Una biblioteca de componentes React implementando los principios de Material Design",
+  },
+  {
+    id: 13,
+    title: "react player",
+    text: "Permite en aplicaciones de react poder mostrar videos de diferentes plataformas a partir de una url.",
+    link: "https://www.npmjs.com/package/react-player",
+  },
+];

@@ -1,0 +1,49 @@
+.card-route-curso {
+  width: 300px;
+  height: 400px;
+  background-color: #16181d;
+  border-radius: 10px;
+  color: #fff;
+}
+.img-curso {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.container-todo {
+  width: 100%;
+  height: 220px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 5px;
+}
+.details-curso {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title-curso {
+  font-size: 18px;
+}
+
+.text-curso {
+  color: #929292;
+}
+.links-curso {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.link-curso {
+  text-decoration: none;
+  font-size: 18px;
+  color: #43bff9;
+  height: 20px;
+}
+.link-curso:hover {
+  color: #7dd3fc;
+  border-bottom: 1px solid #7dd3fc;
+}
