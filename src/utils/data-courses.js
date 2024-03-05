@@ -9,7 +9,7 @@ import iconExpress from "../assets/icons/icons-cards/icon-express.png";
 import iconGit from "../assets/icons/icons-cards/icon-git.png";
 import iconGithub from "../assets/icons/icons-cards/icon-github.png";
 import iconPostgresql from "../assets/icons/icons-cards/icon-postgresql.png";
-import iconTypescript from "../assets/icons/icons-cards/icon-typeScript.png";
+import iconTypescript from "../assets/icons/icons-cards/icon-typescript.png";
 import iconNode from "../assets/icons/icons-cards/icon-node.png";
 import iconTailwind from "../assets/icons/icons-cards/icon-tailwind.png";
 import iconMongodb from "../assets/icons/icons-cards/icon-mongodb.png";
