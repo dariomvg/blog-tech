@@ -16,11 +16,13 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  gap:20px;
   width: 200px;
-  height: 250px;
+  height: auto;
   margin: auto;
   border-radius: 10px;
   background-image: linear-gradient(to left, #5468ff, #43bff9);
+  padding:10px;
 }
 .link-tech {
   text-decoration: underline;

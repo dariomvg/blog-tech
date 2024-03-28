@@ -1,10 +1,10 @@
 "use client";
 import imgFlecha from "@/assets/icons/all-icons/icon-down.svg";
-import "@/styles/menu-content.css";
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
+import "@/styles/menu-content.css";
 
 export default function MenuContent() {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,11 +20,12 @@ export default function MenuContent() {
         <h2 className="title-categories">Categorias</h2>
         <Image
           src={imgFlecha}
-          alt="image"
+          alt="imagen de flecha"
           className="img-flecha"
           width={20}
           height={20}
           onClick={openAside}
+          loading="lazy"
         />
       </div>
       <div className="list-link">

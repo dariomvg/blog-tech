@@ -1,5 +1,6 @@
 "use client"
 import iconArrow from "../assets/icons/all-icons/icon-arrow.png";
+import imgFondo from "../assets/images/mockup.svg";
 import { Typewriter } from "react-simple-typewriter";
 import { cursos } from "@/utils/data-courses";
 import { temas } from "@/utils/data-topics";
@@ -12,7 +13,6 @@ import Link from "next/link";
 import "./main.css";
 import { words } from "@/utils/words";
 import Image from "next/image";
-import Video from "@/components/Video";
 
 export default function Home() {
   return (
@@ -40,7 +40,7 @@ export default function Home() {
             recursos de ayuda como artículos y temas relacionados.
           </p>
         </div>
-        <Video />
+        <Image src={imgFondo} alt="imagen principal de inicio" className="mockup" width="600" height="400" loading="lazy" />
       </section>
 
       <section className="cont-details">

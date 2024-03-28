@@ -2,7 +2,7 @@ import Image from "next/image";
 import iconInstagram from "@/assets/icons/all-icons/icon-instagram.png";
 import iconLinkedin from "@/assets/icons/all-icons/icon-linkedin.png";
 import iconTwitter from "@/assets/icons/all-icons/icon-twitter.png";
-import "./contacs.css";
+import "./networks.css";
 
 export default function RouteContentContacts() {
   return (
@@ -12,7 +12,7 @@ export default function RouteContentContacts() {
         <a
           href="https://www.instagram.com/dariomartinezgod/"
           target="_BLANK"
-          className="link-app">
+          className="link-app-contact">
           <Image
             src={iconInstagram}
             alt="icon instagram"
@@ -24,7 +24,7 @@ export default function RouteContentContacts() {
         <a
           href="https://twitter.com/DarioGod07"
           target="_BLANK"
-          className="link-app">
+          className="link-app-contact">
           <Image
             src={iconTwitter}
             alt="icon twitter - x"
@@ -36,7 +36,7 @@ export default function RouteContentContacts() {
         <a
           href="https://www.linkedin.com/in/dario-martinez-597486291/"
           target="_BLANK"
-          className="link-app">
+          className="link-app-contact">
           <Image
             src={iconLinkedin}
             alt="icon linkedin"
@@ -50,7 +50,7 @@ export default function RouteContentContacts() {
       <a
         href="https://dariomvg.github.io/portfolio/#"
         target="_BLANK"
-        className="link-portfolio">
+        className="link-portfolio-contact">
         Portfolio
       </a>
     </section>

@@ -7,19 +7,21 @@ import iconMysql from "../assets/icons/icons-cards/icon-mysql.png";
 import iconDeno from "../assets/icons/icons-cards/icon-deno.png";
 import iconExpress from "../assets/icons/icons-cards/icon-express.png";
 import iconGit from "../assets/icons/icons-cards/icon-git.png";
-import iconGithub from "../assets/icons/icons-cards/icon-github.png";
+import iconGithub from "../assets/icons/icons-cards/icon-github.svg";
 import iconPostgresql from "../assets/icons/icons-cards/icon-postgresql.png";
 import iconTypescript from "../assets/icons/icons-cards/icon-typescript.png";
-import iconNode from "../assets/icons/icons-cards/icon-node.png";
+import iconNode from "../assets/icons/icons-cards/icon-node.svg";
 import iconTailwind from "../assets/icons/icons-cards/icon-tailwind.png";
 import iconMongodb from "../assets/icons/icons-cards/icon-mongodb.png";
 import iconBoostrap from "../assets/icons/icons-cards/icon-boot.png";
-import iconNext from "../assets/icons/icons-cards/icon-next.png";
+import iconNext from "../assets/icons/icons-cards/icon-next.svg";
 import iconAngular from "../assets/icons/icons-cards/icon-angular.png";
 import iconPython from "../assets/icons/icons-cards/icon-python.png";
 import iconDocker from "../assets/icons/icons-cards/icon-docker.png";
 import iconWebpack from "../assets/icons/icons-cards/icon-webpack.png";
 import iconJava from "../assets/icons/icons-cards/icon-java.png";
+import iconBun from "../assets/icons/icons-cards/icon-bun.svg";
+import iconAstro from "../assets/icons/icons-cards/icon-astro.svg";
 
 
 import imgAstro from "../assets/images/images-card/img-astro.png";
@@ -172,7 +174,7 @@ export const cursos = [
     title: "Bun",
     detail: "",
     text: "Un compilador de JavaScript y TypeScript que permite crear aplicaciones web más eficientes y rápidas al reducir el tamaño del código.",
-    icon: null,
+    icon: iconBun,
     link: "https://youtu.be/9gM7HQ7SafE?si=M4CmXRkQfOSNI7hE",
     docs: "https://bun.sh/",
     name: "bun",
@@ -184,7 +186,7 @@ export const cursos = [
     title: "Astro",
     detail: "",
     text: "Un marco de desarrollo para la construcción de sitios web que utiliza una arquitectura de renderizado por demanda y permite la creación de sitios estáticos y dinámicos.",
-    icon: null,
+    icon: iconAstro,
     link: "https://youtu.be/sOXW0ZnJxbQ?si=Bg4DXRF0ET3MGTVb",
     docs: "https://astro.build/",
     name: "astro",

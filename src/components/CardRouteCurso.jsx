@@ -8,7 +8,7 @@ export const CardRouteCurso = ({ item }) => {
     <div className="card-route-curso">
       <Image
         src={image}
-        alt="image"
+        alt={title}
         className="img-curso"
         width={"100%"}
         height={170}
@@ -16,11 +16,11 @@ export const CardRouteCurso = ({ item }) => {
       />
       <section className="container-todo">
         <div className="details-curso">
-          <h4 className="title-curso">{title}</h4>
+          <h2 className="title-curso">{title}</h2>
           {icon ? (
             <Image
               src={icon}
-              alt="icon"
+              alt={title}
               width={30}
               height={30}
               className="icon-curso"

@@ -7,7 +7,7 @@ export const CardRouteTemas = ({ item }) => {
     <div className="card-route-tema">
       <Image
         src={image}
-        alt="image"
+        alt={title}
         className="img-tema"
         width={"100%"}
         height={170}
