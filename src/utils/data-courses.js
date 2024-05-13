@@ -1,62 +1,11 @@
-import iconHTML from "../assets/icons/icons-cards/icon-html.png";
-import iconCSS from "../assets/icons/icons-cards/icon-css.png";
-import iconJs from "../assets/icons/icons-cards/icon-javascript.png";
-import iconReact from "../assets/icons/icons-cards/icon-react.png";
-import iconSQL from "../assets/icons/icons-cards/icon-sql.png";
-import iconMysql from "../assets/icons/icons-cards/icon-mysql.png";
-import iconDeno from "../assets/icons/icons-cards/icon-deno.png";
-import iconExpress from "../assets/icons/icons-cards/icon-express.png";
-import iconGit from "../assets/icons/icons-cards/icon-git.png";
-import iconGithub from "../assets/icons/icons-cards/icon-github.svg";
-import iconPostgresql from "../assets/icons/icons-cards/icon-postgresql.png";
-import iconTypescript from "../assets/icons/icons-cards/icon-typescript.png";
-import iconNode from "../assets/icons/icons-cards/icon-node.svg";
-import iconTailwind from "../assets/icons/icons-cards/icon-tailwind.png";
-import iconMongodb from "../assets/icons/icons-cards/icon-mongodb.png";
-import iconBoostrap from "../assets/icons/icons-cards/icon-boot.png";
-import iconNext from "../assets/icons/icons-cards/icon-next.svg";
-import iconAngular from "../assets/icons/icons-cards/icon-angular.png";
-import iconPython from "../assets/icons/icons-cards/icon-python.png";
-import iconDocker from "../assets/icons/icons-cards/icon-docker.png";
-import iconWebpack from "../assets/icons/icons-cards/icon-webpack.png";
-import iconJava from "../assets/icons/icons-cards/icon-java.png";
-import iconBun from "../assets/icons/icons-cards/icon-bun.svg";
-import iconAstro from "../assets/icons/icons-cards/icon-astro.svg";
-
-
-import imgAstro from "../assets/images/images-card/img-astro.png";
-import imgBoot from "../assets/images/images-card/img-boot.png";
-import imgBun from "../assets/images/images-card/img-bun.png";
-import imgCss from "../assets/images/images-card/img-css.png";
-import imgDeno from "../assets/images/images-card/img-deno.png";
-import imgGit from "../assets/images/images-card/img-git.png";
-import imgGithub from "../assets/images/images-card/img-github.png";
-import imgHtml from "../assets/images/images-card/img-html.png";
-import imgJavascript from "../assets/images/images-card/img-js.png";
-import imgMongo from "../assets/images/images-card/img-mongo.png";
-import imgMysql from "../assets/images/images-card/img-mysql.png";
-import imgNext from "../assets/images/images-card/img-next.png";
-import imgNode from "../assets/images/images-card/img-node.png";
-import imgPostgre from "../assets/images/images-card/img-postgre.png";
-import imgReact from "../assets/images/images-card/img-react.png";
-import imgSql from "../assets/images/images-card/img-sql.png";
-import imgTailwind from "../assets/images/images-card/img-tailwind.png";
-import imgTypescript from "../assets/images/images-card/img-typescript.png";
-import imgExpress from "../assets/images/images-card/img-express.png";
-import imgPython from "../assets/images/images-card/img-python.png";
-import imgAngular from "../assets/images/images-card/img-angular.png";
-import imgDocker from "../assets/images/images-card/img-docker.png";
-import imgJava from "../assets/images/images-card/img-java.png";
-import imgWebpack from "../assets/images/images-card/img-webpack.png";
-
 export const cursos = [
   {
     id: 1,
-    image: imgHtml,
+    image: "https://res.cloudinary.com/duyiov4s1/image/upload/v1715628316/site-tech/dzxxhkc6csyb4hnlmhdn.png",
     title: "Curso HTML5",
     detail: "Hypertext Markup Language 5",
     text: "el lenguaje estándar para la creación y diseño de páginas web. Permite estructurar el contenido de una página web",
-    icon: iconHTML,
+    icon: "https://res.cloudinary.com/duyiov4s1/image/upload/v1715630705/icons/we6m6jdr2strcxqmfiq9.png",
     link: "https://www.youtube.com/watch?v=kN1XP-Bef7w&list=PLE8uP447fYpgOwKgbypiCGSz7veY2MLGb&index=1",
     docs: "https://developer.mozilla.org/es/docs/Web/HTML",
     name: "html",
@@ -64,11 +13,11 @@ export const cursos = [
   },
   {
     id: 2,
-    image: imgNode,
+    image: "https://res.cloudinary.com/duyiov4s1/image/upload/v1715628318/site-tech/mnif6ompxshgyshb2pyc.png",
     title: "Node.js",
     detail: "",
     text: "Un entorno de ejecución de JavaScript del lado del servidor. Se utiliza para construir aplicaciones web escalables y en tiempo real.",
-    icon: iconNode,
+    icon: "https://res.cloudinary.com/duyiov4s1/image/upload/v1715630708/icons/brjr91fo2bz5nkp8qzfa.png",
     link: "https://youtube.com/playlist?list=PLUofhDIg_38qm2oPOV-IRTTEKyrVBBaU7&si=_VI_r3u8jC6AaZjV",
     docs: "https://nodejs.org/en",
     name: "node",
@@ -76,10 +25,10 @@ export const cursos = [
   },
   {
     id: 3,
-    image: imgReact,
+    image: "https://res.cloudinary.com/duyiov4s1/image/upload/v1715628319/site-tech/pcjfvdporpeydi13ygxw.png",
     title: "React",
     text: "Una biblioteca de JavaScript para construir interfaces de usuario interactivas y reutilizables.Es útil para la creación de aplicaciones de una sola página",
-    icon: iconReact,
+    icon: "https://res.cloudinary.com/duyiov4s1/image/upload/v1715630710/icons/knr3vzwcdbhbm1m2vjkx.png",
     link: "https://www.youtube.com/playlist?list=PLUofhDIg_38q4D0xNWp7FEHOTcZhjWJ29",
     docs: "https://react.dev/",
     name: "react",
@@ -87,10 +36,10 @@ export const cursos = [
   },
   {
     id: 4,
-    image: imgJavascript,
+    image: "https://res.cloudinary.com/duyiov4s1/image/upload/v1715628316/site-tech/uh4j7h8egod9mm6wv41k.png",
     title: "JavaScript",
     text: "Un lenguaje de programación del lado del cliente que se utiliza para agregar interactividad y dinamismo a las páginas web.",
-    icon: iconJs,
+    icon: "https://res.cloudinary.com/duyiov4s1/image/upload/v1715630706/icons/axdfl44xs4xjq9c2nkxj.png",
     link: "https://www.youtube.com/playlist?list=PLE8uP447fYpiBqMVF1hdWl9uFeVEeXRTm",
     docs: "https://developer.mozilla.org/es/docs/Web/JavaScript",
     name: "javascript",
@@ -98,11 +47,11 @@ export const cursos = [
   },
   {
     id: 5,
-    image: imgSql,
+    image: "https://res.cloudinary.com/duyiov4s1/image/upload/v1715628319/site-tech/vnbgtuyxgq4aw7mtiadu.png",
     title: "SQL",
     detail: "Structured Query Language",
     text: " Un lenguaje estándar para gestionar bases de datos relacionales. Se utiliza para realizar consultas, actualizaciones y modificaciones en bases de datos.",
-    icon: iconSQL,
+    icon: "https://res.cloudinary.com/duyiov4s1/image/upload/v1715630710/icons/eboqm8wgoemsocki1uay.png",
     link: "https://www.youtube.com/watch?v=DFg1V-rO6Pg&t=18s",
     docs: "https://sqlbolt.com/",
     name: "sql",
@@ -110,11 +59,11 @@ export const cursos = [
   },
   {
     id: 6,
-    image: imgMysql,
+    image: "https://res.cloudinary.com/duyiov4s1/image/upload/v1715628317/site-tech/c6uhogrjhsfxqpk6othu.png",
     title: "MySQL",
     detail: "",
     text: "Un sistema de gestión de bases de datos relacional (RDBMS) que utiliza SQL. Es ampliamente utilizado para almacenar y gestionar datos.",
-    icon: iconMysql,
+    icon: "https://res.cloudinary.com/duyiov4s1/image/upload/v1715630707/icons/vy1vp6znf6o6bnezxek8.png",
     link: "https://youtu.be/96s2i-H7e0w?si=s07_R_DmBjE2OKWV",
     docs: "https://www.mysql.com/",
     name: "mysql",
@@ -122,11 +71,11 @@ export const cursos = [
   },
   {
     id: 7,
-    image: imgCss,
+    image: "https://res.cloudinary.com/duyiov4s1/image/upload/v1715628314/site-tech/itxs1ky6fzffoqbrv9x2.png",
     title: "Curso CSS3",
     detail: "Cascading Style Sheets 3",
     text: "Se utiliza para dar estilo y formato al contenido HTML. Controla el diseño, la presentación y la apariencia visual de una página web.",
-    icon: iconCSS,
+    icon: "https://res.cloudinary.com/duyiov4s1/image/upload/v1715630703/icons/qdfgu9p4itbgr9lurdow.png",
     link: "https://www.youtube.com/watch?v=OWKXEJN67FE",
     docs: "https://developer.mozilla.org/es/docs/Web/css",
     name: "css",
@@ -134,11 +83,11 @@ export const cursos = [
   },
   {
     id: 8,
-    image: imgMongo,
+    image: "https://res.cloudinary.com/duyiov4s1/image/upload/v1715628316/site-tech/t7q2cnzbyzsnoj9dgg9t.png",
     title: "MongoDB",
     detail: "",
     text: "Una base de datos NoSQL que utiliza documentos JSON para almacenar datos. Es especialmente eficaz para manejar grandes cantidades de datos no estructurados.",
-    icon: iconMongodb,
+    icon: "https://res.cloudinary.com/duyiov4s1/image/upload/v1715630707/icons/vy1vp6znf6o6bnezxek8.png",
     link: "https://youtu.be/HsYA3QvWGlk?si=wab3gUduLcaVR7y3",
     docs: "https://www.mongodb.com/es",
     name: "mongodb",
@@ -146,11 +95,11 @@ export const cursos = [
   },
   {
     id: 9,
-    image: imgDeno,
+    image: "https://res.cloudinary.com/duyiov4s1/image/upload/v1715628314/site-tech/dc6yugxsylnbklirvlrw.png",
     title: "Deno",
     detail: "",
     text: "Un entorno de ejecución de JavaScript y TypeScript del lado del servidor, creado como alternativa a Node.js, con un enfoque en la seguridad y la simplicidad.",
-    icon: iconDeno,
+    icon: "https://res.cloudinary.com/duyiov4s1/image/upload/v1715630703/icons/xrovcursustm3d3eu8pk.png",
     link: "https://youtu.be/KsgDQL6jj2M?si=bA_XB7TxOr6Yi3ZN",
     docs: "https://deno.com/",
     name: "deno",
@@ -158,11 +107,11 @@ export const cursos = [
   },
   {
     id: 10,
-    image: imgNext,
+    image: "https://res.cloudinary.com/duyiov4s1/image/upload/v1715628318/site-tech/kcrbuxifa2gboqpmal2c.png",
     title: "Next.js",
     detail: "",
     text: "Un marco de desarrollo para React que facilita la creación de aplicaciones web con renderización del lado del servidor (SSR) y generación de páginas estáticas.",
-    icon: iconNext,
+    icon: "https://res.cloudinary.com/duyiov4s1/image/upload/v1715640770/icons/jb2uqrihkaabidaimxfu.svg",
     link: "https://youtu.be/_SPoSMmN3ZU?si=-vH2iwQXr8hise6Y",
     docs: "https://nextjs.org/",
     name: "next",
@@ -170,11 +119,11 @@ export const cursos = [
   },
   {
     id: 11,
-    image: imgBun,
+    image: "https://res.cloudinary.com/duyiov4s1/image/upload/v1715628314/site-tech/trez48elwuuqfiz1i3wp.png",
     title: "Bun",
     detail: "",
     text: "Un compilador de JavaScript y TypeScript que permite crear aplicaciones web más eficientes y rápidas al reducir el tamaño del código.",
-    icon: iconBun,
+    icon: "https://res.cloudinary.com/duyiov4s1/image/upload/v1715630703/icons/hmprf0j4mshkrpkvooqo.svg",
     link: "https://youtu.be/9gM7HQ7SafE?si=M4CmXRkQfOSNI7hE",
     docs: "https://bun.sh/",
     name: "bun",
@@ -182,11 +131,11 @@ export const cursos = [
   },
   {
     id: 12,
-    image: imgAstro,
+    image: "https://res.cloudinary.com/duyiov4s1/image/upload/v1715628313/site-tech/jwkresvlsg4im6ab4nis.png",
     title: "Astro",
     detail: "",
     text: "Un marco de desarrollo para la construcción de sitios web que utiliza una arquitectura de renderizado por demanda y permite la creación de sitios estáticos y dinámicos.",
-    icon: iconAstro,
+    icon: "https://res.cloudinary.com/duyiov4s1/image/upload/v1715630702/icons/kflghtvuthksuvjnoksh.svg",
     link: "https://youtu.be/sOXW0ZnJxbQ?si=Bg4DXRF0ET3MGTVb",
     docs: "https://astro.build/",
     name: "astro",
@@ -194,11 +143,11 @@ export const cursos = [
   },
   {
     id: 13,
-    image: imgGit,
+    image: "https://res.cloudinary.com/duyiov4s1/image/upload/v1715628315/site-tech/xxp2nsugpi90gr3lkvxn.png",
     title: "Git",
     detail: "",
     text: "Un sistema de control de versiones distribuido que permite gestionar el historial de cambios en el código fuente de un proyecto de manera colaborativa.",
-    icon: iconGit,
+    icon: "https://res.cloudinary.com/duyiov4s1/image/upload/v1715630704/icons/qvuhua3th3lugpyg8ral.png",
     link: "https://youtu.be/HiXLkL42tMU?si=tZBlh7VsDdpPdY-9",
     docs: "https://git-scm.com/",
     name: "git",
@@ -206,11 +155,11 @@ export const cursos = [
   },
   {
     id: 14,
-    image: imgExpress,
+    image: "https://res.cloudinary.com/duyiov4s1/image/upload/v1715628314/site-tech/tmlht3gkzi3ukkfsvzps.png",
     title: "Express",
     detail: "",
     text: "Un marco de desarrollo de Node.js que simplifica la creación de aplicaciones web y API mediante la definición de rutas y middleware.",
-    icon: iconExpress,
+    icon: "https://res.cloudinary.com/duyiov4s1/image/upload/v1715630704/icons/hsymwfbrpy1cnv9suput.png",
     link: "https://youtu.be/JmJ1WUoUIK4?si=lr_1hhpVmlc3Sh80",
     docs: "https://expressjs.com/",
     name: "express",
@@ -218,11 +167,11 @@ export const cursos = [
   },
   {
     id: 15,
-    image: imgPostgre,
+    image: "https://res.cloudinary.com/duyiov4s1/image/upload/v1715628318/site-tech/g1w941bd7y5hpulcxvxb.png",
     title: "PostgreSQL",
     detail: "",
     text: "Un sistema de gestión de bases de datos relacional que es potente, extensible y de código abierto",
-    icon: iconPostgresql,
+    icon: "https://res.cloudinary.com/duyiov4s1/image/upload/v1715630709/icons/zvsye9kcyksg6as6yyfd.png",
     link: "https://youtube.com/playlist?list=PLgqdACsQ8US2DCzQVrdZDZCTtTFHMY0as&si=5VvoDca6cM8CXlkA",
     docs: "https://www.postgresql.org/",
     name: "postgresql",
@@ -230,11 +179,11 @@ export const cursos = [
   },
   {
     id: 16,
-    image: imgTypescript,
+    image: "https://res.cloudinary.com/duyiov4s1/image/upload/v1715628320/site-tech/gxn8jswnehtgwg34xobn.png",
     title: "TypeScript",
     detail: "",
     text: "Una extensión de JavaScript que agrega tipos estáticos opcionales. Facilita el desarrollo de código más robusto y mantenible.",
-    icon: iconTypescript,
+    icon: "https://res.cloudinary.com/duyiov4s1/image/upload/v1715630711/icons/ay8gq45jhpfyisvyykbp.png",
     link: "https://youtu.be/fUgxxhI_bvc?si=tQNu1u_AkDnYHMDr",
     docs: "https://www.typescriptlang.org/",
     name: "typescript",
@@ -242,11 +191,11 @@ export const cursos = [
   },
   {
     id: 17,
-    image: imgGithub,
+    image: "https://res.cloudinary.com/duyiov4s1/image/upload/v1715628315/site-tech/cnhes2wcnhebqy3safqb.png",
     title: "GitHub",
     detail: "",
     text: "Una plataforma de desarrollo colaborativo que utiliza Git para el control de versiones. Permite a los desarrolladores trabajar juntos en proyectos de software",
-    icon: iconGithub,
+    icon: "https://res.cloudinary.com/duyiov4s1/image/upload/v1715640749/icons/tgtibq4acvpmnuihxrxh.svg",
     link: "https://youtu.be/3GymExBkKjE?si=A27DhKzTw4paK-2E",
     docs: "https://github.com/",
     name: "github",
@@ -254,11 +203,11 @@ export const cursos = [
   },
   {
     id: 18,
-    image: imgBoot,
+    image: "https://res.cloudinary.com/duyiov4s1/image/upload/v1715628314/site-tech/ttwhmfrvwlwvlwruk6nh.png",
     title: "Bootstrap",
     detail: "",
     text: "Un marco de diseño front-end que facilita el diseño y desarrollo de interfaces web responsivas y atractivas.",
-    icon: iconBoostrap,
+    icon: "https://res.cloudinary.com/duyiov4s1/image/upload/v1715630702/icons/xiv0rw6r7gjphmnkqclu.png",
     link: "https://youtu.be/QCw0L6FupQ0?si=EduiMGTsgbmiD3Yz",
     docs: "https://getbootstrap.com/",
     name: "bootstrap",
@@ -266,11 +215,11 @@ export const cursos = [
   },
   {
     id: 19,
-    image: imgTailwind,
+    image: "https://res.cloudinary.com/duyiov4s1/image/upload/v1715628320/site-tech/rlnfsv7wdeem8zmxu5es.png",
     title: "Tailwind CSS",
     detail: "",
     text: "Un marco de diseño CSS utilitario que permite diseñar interfaces de usuario de manera eficiente y personalizada.",
-    icon: iconTailwind,
+    icon: "https://res.cloudinary.com/duyiov4s1/image/upload/v1715630711/icons/z0e8iw2eztq6xbx9hltf.png",
     link: "https://youtube.com/playlist?list=PLPl81lqbj-4JdoHDiERR2ptkw9zRggXAL&si=aig-uAbEL6BzymH7",
     docs: "https://tailwindcss.com/",
     name: "tailwind",
@@ -278,11 +227,11 @@ export const cursos = [
   },
   {
     id: 20,
-    image: imgJava,
+    image: "https://res.cloudinary.com/duyiov4s1/image/upload/v1715628316/site-tech/dj7wlnnukmgvkaipihuj.png",
     title: "Java",
     detail: "",
     text: "Java es un lenguaje de programación que se utiliza ampliamente para desarrollar aplicaciones empresariales, aplicaciones móviles, juegos y aplicaciones web.",
-    icon: iconJava,
+    icon: "https://res.cloudinary.com/duyiov4s1/image/upload/v1715630706/icons/q5rsrd9k6wpwkgn9ndev.png",
     link: "https://youtu.be/Bi9AmOBDJGY?si=MVNyP1spIy2AVdQr",
     docs: "https://www.java.com/es/",
     name: "java",
@@ -290,11 +239,11 @@ export const cursos = [
   },
   {
     id: 21,
-    image: imgPython,
+    image: "https://res.cloudinary.com/duyiov4s1/image/upload/v1715628319/site-tech/hsbffynicsjmo7hyccz0.png",
     title: "Python",
     detail: "",
     text: "Python es un lenguaje de programación que se utiliza en desarrollo web, análisis de datos, inteligencia artificial, desarrollo de juegos y automatización de tareas.",
-    icon: iconPython,
+    icon: "https://res.cloudinary.com/duyiov4s1/image/upload/v1715630709/icons/gr2igynzi7ssk4sf8d4v.png",
     link: "https://youtu.be/nKPbfIU442g?si=LxbUYsimholvoxkX",
     docs: "https://www.python.org/",
     name: "python",
@@ -302,11 +251,11 @@ export const cursos = [
   },
   {
     id: 22,
-    image: imgDocker,
+    image: "https://res.cloudinary.com/duyiov4s1/image/upload/v1715628314/site-tech/rwkrqrkaqewpkfscxknm.png",
     title: "Docker",
     detail: "",
     text: "Docker es una plataforma que se utiliza para desarrollar, empaquetar y ejecutar aplicaciones en contenedores.Lo que facilita la implementación de aplicaciones en cualquier entorno ",
-    icon: iconDocker,
+    icon: "https://res.cloudinary.com/duyiov4s1/image/upload/v1715630703/icons/nxij8lksaprz4po1uuwe.png",
     link: "https://youtu.be/4Dko5W96WHg?si=VMbQMQTh10P6-Q9h",
     docs: "https://www.docker.com/",
     name: "docker",
@@ -314,11 +263,11 @@ export const cursos = [
   },
   {
     id: 23,
-    image: imgWebpack,
+    image: "https://res.cloudinary.com/duyiov4s1/image/upload/v1715628321/site-tech/wqajhetkp5t3zhfvmhe3.png",
     title: "Webpack",
     detail: "",
     text: "Webpack construye módulos o paquetes que se utilizan para agrupar y empacar archivos de JavaScript, CSS, imágenes, etc.",
-    icon: iconWebpack,
+    icon: "https://res.cloudinary.com/duyiov4s1/image/upload/v1715630702/icons/sea1z0dcvjbawxlmszed.png",
     link: "https://youtu.be/FMNuTj89RzU?si=y7uhOprYWCewg3W7",
     docs: "https://webpack.js.org/",
     name: "webpack",
@@ -326,14 +275,118 @@ export const cursos = [
   },
   {
     id: 24,
-    image: imgAngular,
+    image: "https://res.cloudinary.com/duyiov4s1/image/upload/v1715628313/site-tech/kiduqwwntg1ws2qmayu1.png",
     title: "Angular",
     detail: "",
     text: "Angular es un framework web que se utiliza para construir aplicaciones web de una sola página y aplicaciones web escalables.",
-    icon: iconAngular,
+    icon: "https://res.cloudinary.com/duyiov4s1/image/upload/v1715630702/icons/huygfslzio3twbiwxc9x.png",
     link: "https://www.youtube.com/playlist?list=PLCKuOXG0bPi0Ym-wA_VIViDzUCgPqWhWu",
     docs: "https://angular.io/",
     name: "angular",
     autor: "Fernando Herrera",
   },
+  ,
+  {
+    id: 25,
+    image: "https://res.cloudinary.com/duyiov4s1/image/upload/v1715628296/site-tech/e820ryk6i5xehf6cwu7t.png",
+    title: "Bash",
+    detail: "",
+    text: "Un intérprete de comandos y un lenguaje de scripting para sistemas operativos tipo Unix. Es utilizado principalmente en sistemas Linux y macOS.",
+    icon: "https://res.cloudinary.com/duyiov4s1/image/upload/v1715637703/icons/vel8f8gpreqnogwupcxj.svg",
+    link: "https://youtu.be/H4ayPYcZEfI?si=Z73qisLrp2Qa2tB1",
+    docs: "https://linuxconfig.org/?s=bash",
+    name: "bash",
+    autor: "Fazt",
+  }
+  ,
+  {
+    id: 26,
+    image: "https://res.cloudinary.com/duyiov4s1/image/upload/v1715628296/site-tech/matfyzh3gkyotslqdcrm.png",
+    title: "Github Actions",
+    detail: "",
+    text: "Una característica de GitHub que permite automatizar flujos de trabajo en tus repositorios. Puedes crear, probar y desplegar tu código directamente desde GitHub",
+    icon: "",
+    link: "https://youtu.be/pNtcTmCiXzw?si=UCKSFgvr5FcSFZqI",
+    docs: "https://github.com/features/actions",
+    name: "github actions",
+    autor: "Mouredev",
+  }
+  ,
+  {
+    id: 27,
+    image: "https://res.cloudinary.com/duyiov4s1/image/upload/v1715628296/site-tech/pjhlgdflp8fkjsg4m5uo.png",
+    title: "Nest.js",
+    detail: "",
+    text: "Un framework de Node.js para construir aplicaciones escalables y eficientes en el servidor",
+    icon: "https://res.cloudinary.com/duyiov4s1/image/upload/v1715637703/icons/qynbkeqjxl6lkcnmeipp.svg",
+    link: "https://youtu.be/wsqcg5ZtUMM?si=BSskH4AjqdU-7Vo1",
+    docs: "https://nestjs.com/",
+    name: "nest",
+    autor: "Fazt",
+  }
+  ,
+  {
+    id: 28,
+    image: "https://res.cloudinary.com/duyiov4s1/image/upload/v1715628296/site-tech/ve51wc6bnlj1aygrxt0y.png",
+    title: "php",
+    detail: "",
+    text: "Un lenguaje de programación ampliamente utilizado, especialmente para el desarrollo web del lado del servidor",
+    icon: "https://res.cloudinary.com/duyiov4s1/image/upload/v1715637703/icons/vo7awerkx1q6awaka5j9.svg",
+    link: "https://youtu.be/BcGAPkjt_IE?si=lssfKibUpjJffLTq",
+    docs: "https://www.php.net/",
+    name: "php",
+    autor: "Midudev",
+  }
+  ,
+  {
+    id: 29,
+    image: "https://res.cloudinary.com/duyiov4s1/image/upload/v1715628296/site-tech/uha7co4jokwigqvuojrc.png",
+    title: "Prisma",
+    detail: "",
+    text: "Una herramienta de mapeo de objetos relacionales (ORM) para bases de datos en TypeScript y JavaScript",
+    icon: "https://res.cloudinary.com/duyiov4s1/image/upload/v1715637703/icons/one8ytnl0ckt9uryraw5.svg",
+    link: "https://youtu.be/N5dkg28jRF0?si=strXpsWmfEQsLxK5",
+    docs: "https://www.prisma.io/",
+    name: "prisma",
+    autor: "Fazt",
+  }
+  ,
+  {
+    id: 30,
+    image: "https://res.cloudinary.com/duyiov4s1/image/upload/v1715628296/site-tech/fo3vjx4coaqmrx6uytgm.png",
+    title: "Programación",
+    detail: "",
+    text: "Es el proceso de formular algoritmos para resolver problemas. Es fundamental en el desarrollo de software.",
+    icon: "https://res.cloudinary.com/duyiov4s1/image/upload/v1715637705/icons/bgvuewrhovfzraod7qim.png",
+    link: "https://youtube.com/playlist?list=PLyvsggKtwbLVva0XXvoqx91iaLmhgeNy7&si=CQPv5WRuKRIfs2Vz",
+    docs: "https://software1278.webnode.es/blog/conceptos-basicos-de-logica-de-programacion-/",
+    name: "logica",
+    autor: "La geekipedia de Ernesto",
+  }
+  ,
+  {
+    id: 31,
+    image: "https://res.cloudinary.com/duyiov4s1/image/upload/v1715628296/site-tech/tbkll4ukkwy6gd38kvof.png",
+    title: "Visual Studio Code",
+    detail: "",
+    text: "Un popular editor de código fuente desarrollado por Microsoft. Es altamente personalizable y cuenta con una amplia gama de extensiones",
+    icon: "https://res.cloudinary.com/duyiov4s1/image/upload/v1715637703/icons/unjac5xuc5e5nuw3hgeb.svg",
+    link: "https://youtu.be/TbzrOz8HbFM?si=PGCh6vcLC3hWDAYN",
+    docs: "https://code.visualstudio.com/",
+    name: "vs code",
+    autor: "Soydalto",
+  }
+  ,
+  {
+    id: 32,
+    image: "https://res.cloudinary.com/duyiov4s1/image/upload/v1715628296/site-tech/qbjk3cqqegfnkuj9a4ds.png",
+    title: "Vue",
+    detail: "",
+    text: "Un popular framework de JavaScript para construir interfaces de usuario interactivas",
+    icon: "https://res.cloudinary.com/duyiov4s1/image/upload/v1715637703/icons/fefrvosm8k8ckk1rmsjf.svg",
+    link: "https://youtube.com/playlist?list=PLDllzmccetSNgykILXnHMeuO-y-gRcF-i&si=zMRJ7EQiqbDYmrr3",
+    docs: "https://vuejs.org/",
+    name: "vue",
+    autor: "GOGODEV",
+  }
 ];

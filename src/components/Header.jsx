@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import imgMenu from "../assets/icons/all-icons/menu.svg";
+import imgMenu from "../assets/icons/menu.svg";
 import Link from "next/link";
 import "../styles/header.css";
 import Image from "next/image";

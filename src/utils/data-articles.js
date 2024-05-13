@@ -71,5 +71,25 @@ export const articulos = [
     title: "Automatización de Tareas con Gulp.js",
     link: "https://gulpjs.com/",
     text: "Cómo usar Gulp.js para automatizar tareas repetitivas en el desarrollo web.",
+  },{
+    id: 13,
+    title: "10 consejos sobre rendimiento en React Senior",
+    link: "https://blog.stackademic.com/10-expert-performance-tips-every-senior-js-react-developer-should-know-b0c5c91dd0e8",
+    text: "Consejos de rendimiento en react que todo senior debe saber",
+  },{
+    id: 14,
+    title: "Preguntas y código javascript de entrevistas",
+    link: "https://blog.stackademic.com/14-javascript-interview-difficult-questions-and-code-implementation-3a72fdc54ecf",
+    text: "Preguntas e implementaciones de código en entrevistas de javscript que te será de ayuda",
+  },{
+    id: 15,
+    title: "Herramientas para el desarrollo en react",
+    link: "https://blog.bitsrc.io/top-10-tools-every-react-developer-needs-in-2024-b87631680e10",
+    text: "Herramientas que todo desarrollador react necesitas para este 2024",
+  },{
+    id: 15,
+    title: "Tips para la optimización en Nextjs",
+    link: "https://blog.devgenius.io/performance-optimization-in-next-js-tips-and-techniques-d6b3ee154d89",
+    text: "Tips y técnicas para mejorar el rendimiento y la optimización cuando desarrolles en next.js",
   },
 ];

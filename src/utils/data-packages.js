@@ -73,8 +73,38 @@ export const paquetes = [
   },
   {
     id: 13,
-    title: "react player",
-    text: "Permite en aplicaciones de react poder mostrar videos de diferentes plataformas a partir de una url.",
-    link: "https://www.npmjs.com/package/react-player",
+    title: "Eslint",
+    text: "Una herramienta de linting para JavaScript que ayuda a identificar y corregir problemas en el código. Es altamente configurable y se utiliza comúnmente en proyectos para mantener consistencia y calidad en el código.",
+    link: "https://www.npmjs.com/package/eslint",
+  },
+  {
+    id: 14,
+    title: "body-parser",
+    text: "Un middleware de Node.js que analiza los cuerpos de las solicitudes HTTP entrantes y los expone en req.body, facilitando el manejo de datos enviados a través de formularios y solicitudes AJAX en aplicaciones Express.js.",
+    link: "https://www.npmjs.com/package/body-parser",
+  },
+  {
+    id: 15,
+    title: "cors",
+    text: "Un middleware de Express.js que permite el intercambio de recursos entre diferentes dominios en el navegador. Ayuda a evitar problemas de seguridad al permitir o restringir las solicitudes HTTP cruzadas.",
+    link: "https://www.npmjs.com/package/cors",
+  },
+  {
+    id: 16,
+    title: "nodemon",
+    text: "Una utilidad de desarrollo para Node.js que reinicia automáticamente la aplicación cuando se detectan cambios en los archivos del proyecto. Es útil durante el desarrollo para agilizar el ciclo de desarrollo sin necesidad de reiniciar manualmente el servidor.",
+    link: "https://www.npmjs.com/package/nodemon",
+  },
+  {
+    id: 17,
+    title: "socket.io",
+    text: "Una biblioteca de JavaScript para aplicaciones web en tiempo real que permite la comunicación bidireccional entre el cliente y el servidor a través de WebSockets. Es ampliamente utilizada en aplicaciones de chat, juegos en línea y otras aplicaciones en tiempo real.",
+    link: "https://www.npmjs.com/package/socket.io",
+  },
+  {
+    id: 18,
+    title: "axios",
+    text: "Una biblioteca de cliente HTTP basada en promesas para el navegador y Node.js. Permite realizar solicitudes HTTP desde el cliente o el servidor de manera sencilla y flexible, con soporte para promesas y async/await.",
+    link: "https://www.npmjs.com/package/axios",
   },
 ];

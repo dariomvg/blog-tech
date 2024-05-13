@@ -12,12 +12,6 @@
   margin: auto;
   padding: 14px;
 }
-.select {
-  padding: 10px;
-  outline: none;
-  color: #5e5e5e;
-  border: none;
-}
 
 .title-courses {
   text-align: center;
@@ -34,4 +28,22 @@
   padding: 10px;
 }
 
+.input {
+  border: 2px solid #fff;
+  padding: 8px;
+  border-radius: 5px;
+  background-color: transparent;
+  color: #fff;
+  font-size: 16px;
+  outline: none;
+}
+.input:focus {
+  border-color:#43bff9;
 
+}
+.input::placeholder {
+  color: #fff;
+  font-size: 16px;
+  color: #929292;
+
+}

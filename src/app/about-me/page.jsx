@@ -1,7 +1,7 @@
 import Image from "next/image";
-import iconInstagram from "../../assets/icons/all-icons/icon-instagram.png";
-import iconLinkendin from "../../assets/icons/all-icons/icon-linkedin.png";
-import iconX from "../../assets/icons/all-icons/icon-twitter.png";
+import iconInstagram from "../../assets/icons/icon-instagram.png";
+import iconLinkendin from "../../assets/icons/icon-linkedin.png";
+import iconX from "../../assets/icons/icon-twitter.png";
 import "./aboutMe.css";
 
 export default function AboutMe () {
@@ -29,7 +29,7 @@ export default function AboutMe () {
             <Image src={iconLinkendin} alt="icon linkedin" width={40} height={40} loading="lazy" />
           </a>
         </div>
-        <a href="https://dariomvg.github.io/portfolio/" target="_BLANK" className="link-portfolio">
+        <a href="https://dario-martinez.vercel.app/" target="_BLANK" className="link-portfolio">
           Portfolio
         </a>
       </section>

@@ -10,7 +10,7 @@ export const CardRouteCurso = ({ item }) => {
         src={image}
         alt={title}
         className="img-curso"
-        width={"100%"}
+        width={300}
         height={170}
         loading="lazy"
       />

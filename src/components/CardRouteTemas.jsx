@@ -9,7 +9,7 @@ export const CardRouteTemas = ({ item }) => {
         src={image}
         alt={title}
         className="img-tema"
-        width={"100%"}
+        width={300}
         height={170}
         loading="lazy"
       />

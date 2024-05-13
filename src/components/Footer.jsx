@@ -1,6 +1,6 @@
-import iconInstagram from "../assets/icons/all-icons/icon-instagram.png";
-import iconX from "../assets/icons/all-icons/icon-twitter.png";
-import iconLinkedin from "../assets/icons/all-icons/icon-linkedin.png";
+import iconInstagram from "../assets/icons/icon-instagram.png";
+import iconX from "../assets/icons/icon-twitter.png";
+import iconLinkedin from "../assets/icons/icon-linkedin.png";
 import "../styles/footer.css"; 
 import Image from "next/image";
 

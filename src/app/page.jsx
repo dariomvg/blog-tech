@@ -1,5 +1,5 @@
 "use client"
-import iconArrow from "../assets/icons/all-icons/icon-arrow.png";
+import iconArrow from "../assets/icons/icon-arrow.png";
 import imgFondo from "../assets/images/mockup.svg";
 import { Typewriter } from "react-simple-typewriter";
 import { cursos } from "@/utils/data-courses";

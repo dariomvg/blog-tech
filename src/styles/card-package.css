@@ -1,5 +1,5 @@
 .card-route-paquete {
-    height: 150px;
+    height: 160px;
     width: 300px;
     background-color: #16181d;
     color: #fff;
@@ -16,6 +16,7 @@
   .text-paquete {
     text-align: center;
     color: #929292;
+    overflow-y: auto;
   }
   
   .link-paquete {

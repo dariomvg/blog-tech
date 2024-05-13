@@ -1,7 +1,7 @@
 import Image from "next/image";
-import iconInstagram from "@/assets/icons/all-icons/icon-instagram.png";
-import iconLinkedin from "@/assets/icons/all-icons/icon-linkedin.png";
-import iconTwitter from "@/assets/icons/all-icons/icon-twitter.png";
+import iconInstagram from "@/assets/icons/icon-instagram.png";
+import iconLinkedin from "@/assets/icons/icon-linkedin.png";
+import iconTwitter from "@/assets/icons/icon-twitter.png";
 import "./networks.css";
 
 export default function RouteContentContacts() {
@@ -48,7 +48,7 @@ export default function RouteContentContacts() {
       </div>
 
       <a
-        href="https://dariomvg.github.io/portfolio/#"
+        href="https://dario-martinez.vercel.app/"
         target="_BLANK"
         className="link-portfolio-contact">
         Portfolio

@@ -1,5 +1,5 @@
 "use client";
-import imgFlecha from "@/assets/icons/all-icons/icon-down.svg";
+import imgFlecha from "@/assets/icons/icon-down.svg";
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";

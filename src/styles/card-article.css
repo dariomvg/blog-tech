@@ -11,6 +11,7 @@
   }
   .text-art {
     color: #929292;
+    overflow-y: auto;
   }
   .link-articulo {
     font-size: 18px;
