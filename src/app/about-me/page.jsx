@@ -29,7 +29,7 @@ export default function AboutMe () {
             <Image src={iconLinkendin} alt="icon linkedin" width={40} height={40} loading="lazy" />
           </a>
         </div>
-        <a href="https://dario-martinez.vercel.app/" target="_BLANK" className="link-portfolio">
+        <a href="https://dariomvg.vercel.app/" target="_BLANK" className="link-portfolio">
           Portfolio
         </a>
       </section>
