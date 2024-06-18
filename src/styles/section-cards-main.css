@@ -1,0 +1,32 @@
+.container-cards {
+  width: 70%;
+}
+.title-container {
+  text-align: start;
+  padding: 14px;
+  color: #fff;
+}
+
+.list-cards {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+  gap: 12px;
+}
+
+.link-more {
+  text-decoration: none;
+  font-size: 20px;
+  color: #517eff;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.link-more:hover {
+  color: #7899ff;
+}

@@ -39,9 +39,6 @@ export const Header = () => {
         <Link href="/courses" className="nav-link">
           Cursos
         </Link>
-        <Link href="/next-study" className="nav-link">
-          Próximo
-        </Link>
       </nav>
     </header>
   );

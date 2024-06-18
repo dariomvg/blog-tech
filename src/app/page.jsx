@@ -1,5 +1,4 @@
-"use client"
-import iconArrow from "../assets/icons/icon-arrow.png";
+"use client";
 import imgFondo from "../assets/images/mockup.svg";
 import { Typewriter } from "react-simple-typewriter";
 import { cursos } from "@/utils/data-courses";
@@ -13,6 +12,7 @@ import Link from "next/link";
 import "./main.css";
 import { words } from "@/utils/words";
 import Image from "next/image";
+import { SectionCardsMain } from "@/components/SectionCardsMain";
 
 export default function Home() {
   return (
@@ -35,78 +35,45 @@ export default function Home() {
           </div>
 
           <p className="text-home">
-            En este blog aprenderás sobre las tecnologías que demandan, como
-            lenguajes de programación, frameworks, dependencias, etc. Además de
-            recursos de ayuda como artículos y temas relacionados.
+            En este blog encontrarás recursos IT como lenguajes de programación,
+            frameworks, dependencias, temas y muchos más temas de mucha ayuda
           </p>
         </div>
-        <Image src={imgFondo} alt="imagen principal de inicio" className="mockup" width="600" height="400" loading="lazy" />
+        <Image
+          src={imgFondo}
+          alt="imagen principal de inicio"
+          className="mockup"
+          width="600"
+          height="400"
+          loading="lazy"
+        />
       </section>
 
       <section className="cont-details">
         <h2 className="subtitle-home">Algunas secciones dentro del blog</h2>
 
-        <section className="container-cards">
-          <h2 className="title-container">Cursos</h2>
-          <div className="list-cards">
-            {cursos &&
-              cursos
-                .slice(0, 3)
-                .map((item) => <CardRouteCurso key={item.id} item={item} />)}
-          </div>
+        <SectionCardsMain title="Cursos" route="courses">
+          {cursos &&
+            cursos
+              .slice(0, 3)
+              .map((item) => <CardRouteCurso key={item.id} item={item} />)}
+        </SectionCardsMain>
 
-          <Link href="/courses" className="link-more">
-            Ver todo
-            <Image
-              src={iconArrow}
-              alt="image arrow"
-              width={20}
-              height={20}
-              loading="lazy"
-            />
-          </Link>
-        </section>
+        <SectionCardsMain title="Temas" route="topics">
+          {temas &&
+            temas
+              .slice(0, 3)
+              .map((item) => <CardRouteTemas key={item.id} item={item} />)}
+        </SectionCardsMain>
 
-        <section className="container-cards">
-          <h2 className="title-container">Temas</h2>
-          <div className="list-cards">
-            {temas &&
-              temas
-                .slice(0, 3)
-                .map((item) => <CardRouteTemas key={item.id} item={item} />)}
-          </div>
-
-          <Link href="/topics" className="link-more">
-            Ver todo
-            <Image
-              src={iconArrow}
-              alt="image arrow"
-              width={20}
-              height={20}
-              loading="lazy"
-            />
-          </Link>
-        </section>
-        <section className="container-cards">
-          <h2 className="title-container">Paquetes y dependencias útiles</h2>
-          <div className="list-cards">
-            {paquetes &&
-              paquetes
-                .slice(0, 3)
-                .map((item) => <CardRoutePackages key={item.id} item={item} />)}
-          </div>
-
-          <Link href="/content/packages" className="link-more">
-            Ver todo
-            <Image
-              src={iconArrow}
-              alt="image arrow"
-              width={20}
-              height={20}
-              loading="lazy"
-            />
-          </Link>
-        </section>
+        <SectionCardsMain
+          title="Paquetes y dependencias útiles"
+          route="content/packages">
+          {paquetes &&
+            paquetes
+              .slice(0, 3)
+              .map((item) => <CardRoutePackages key={item.id} item={item} />)}
+        </SectionCardsMain>
 
         <section className="cont-info">
           <h1 className="title-info">Explora más...</h1>

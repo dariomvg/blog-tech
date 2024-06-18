@@ -1,25 +1,23 @@
-import Image from "next/image";
+"use client"
+import generateRandomColor from "@/utils/generateColor";
 import "../styles/card-topic.css";
+import { useEffect, useState } from "react";
 
 export const CardRouteTemas = ({ item }) => {
-  const { image, title, text, link } = item;
+  const { title, text, link } = item;
+  const [borderColor, setBorderColor] = useState(null);
+
+  useEffect(() => {
+    setBorderColor(generateRandomColor());
+  }, []);
   return (
-    <div className="card-route-tema">
-      <Image
-        src={image}
-        alt={title}
-        className="img-tema"
-        width={300}
-        height={170}
-        loading="lazy"
-      />
-      <div className="details-tema">
+    <div className="card-route-tema" style={{border: borderColor ? `1px solid ${borderColor}` : ''}}>
         <h2 className="title-tema">{title}</h2>
         <p className="text-tema">{text}</p>
         <a href={link} target="_BLANK" className="link-tema">
           Ver más
         </a>
-      </div>
+      
     </div>
   );
 };

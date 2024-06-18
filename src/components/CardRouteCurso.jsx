@@ -1,20 +1,19 @@
+"use client"
 import Image from "next/image";
 import "../styles/card-course.css";
+import generateRandomColor from "@/utils/generateColor";
+import { useEffect, useState } from "react";
 
 export const CardRouteCurso = ({ item }) => {
-  const { image, title, autor, text, icon, link, docs } = item;
+  const { title, autor, text, icon, link, docs } = item;
+  const [borderColor, setBorderColor] = useState(null);
 
+  useEffect(() => {
+    setBorderColor(generateRandomColor());
+  }, []);
+  
   return (
-    <div className="card-route-curso">
-      <Image
-        src={image}
-        alt={title}
-        className="img-curso"
-        width={300}
-        height={170}
-        loading="lazy"
-      />
-      <section className="container-todo">
+    <div className="card-route-curso" style={{border: borderColor ? `1px solid ${borderColor}` : ''}}>
         <div className="details-curso">
           <h2 className="title-curso">{title}</h2>
           {icon ? (
@@ -38,7 +37,6 @@ export const CardRouteCurso = ({ item }) => {
             Curso
           </a>
         </div>
-      </section>
     </div>
   );
 };

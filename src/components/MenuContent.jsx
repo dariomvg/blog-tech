@@ -64,11 +64,6 @@ export default function MenuContent() {
           }`}>
           Redes
         </Link>
-        <Link
-          href="/"
-          className="link-category">
-          Principal
-        </Link>
       </div>
     </section>
   );

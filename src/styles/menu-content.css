@@ -29,10 +29,10 @@
   border-radius: 10px;
   text-decoration: none;
   padding: 14px;
-  color: #5468ff;
+  color: #1963ed;
 }
 .link-category:hover {
-  color: #7888ff;
+  color: #517EFF;
 }
 .link-category.active {
   background-color: #dfdfd6;

@@ -15,7 +15,7 @@
   text-decoration: none;
   font-size: 30px;
   font-weight: bold;
-  background: linear-gradient(to right, #5468ff, #43bff9);
+  background-image: linear-gradient(to right, #1963ed,#EC4DB4);
   background-clip: text;
   color: transparent;
 }
@@ -36,8 +36,8 @@
   font-weight: 600;
 }
 .nav-link:hover {
-  color: #43bff9;
-  border-bottom: 1px solid #43bff9;
+  color: #517EFF;
+  border-bottom: 1px solid #517EFF;
 }
 
 .header.open {

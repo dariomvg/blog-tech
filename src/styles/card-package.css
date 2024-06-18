@@ -22,8 +22,9 @@
   .link-paquete {
     font-size: 18px;
     text-decoration: none;
-    color: #43bff9;
+    color: #1963ed;
   }
   .link-paquete:hover {
-    text-decoration: underline;
+    color: #517EFF;
+
   }
